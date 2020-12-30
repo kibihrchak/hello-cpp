@@ -7,6 +7,7 @@ add_executable(stashTest
     copyAndSwap.cpp
     sfinae.cpp
     perfectForwarding.cpp
+    synchronization.cpp
     )
 
 
