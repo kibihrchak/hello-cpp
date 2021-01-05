@@ -6,6 +6,9 @@
 		},
 		{
 			"path": "projects/stash"
+		},
+		{
+			"path": "projects/stash-fail"
 		}
 	],
 	"extensions": {

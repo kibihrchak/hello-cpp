@@ -34,7 +34,6 @@ TEST(RuleOfZeroTest, AssertDefaultMove)
 {
     bar b1;
     bar b2 = std::move(b1);
-    //bar b3 = b2;  //  Won't compile
 
     ASSERT_EQ(b1.p, nullptr);
     ASSERT_NE(b2.p, nullptr);
