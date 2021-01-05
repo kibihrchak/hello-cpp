@@ -5,7 +5,7 @@ project (stash CXX)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(stashTestCompilationFail
-    ruleOfZeroCf.cpp
+    ruleOfZero.cpp
     )
 
 

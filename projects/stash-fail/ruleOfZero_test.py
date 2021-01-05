@@ -1,5 +1,5 @@
 def test_cannot_instantiate_class():
-    ERROR_NO_CONSTRUCTOR = (r"ruleOfZeroCf.cpp", "19", "14", r"use of deleted function ‘{anonymous}::bar::bar(const {anonymous}::bar&)’")
+    ERROR_NO_CONSTRUCTOR = (r"ruleOfZero.cpp", "19", "14", r"use of deleted function ‘{anonymous}::bar::bar(const {anonymous}::bar&)’")
 
     import os
 
