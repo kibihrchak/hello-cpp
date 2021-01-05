@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(stashTestCompilationFail
     ruleOfZero.cpp
+    staticAssert.cpp
     )
 
 

@@ -20,7 +20,7 @@ generate:
 	cd "$(BUILD_DIR_BASE)" && cmake -DCMAKE_BUILD_TYPE=Debug ..
 
 build: generate
-	cd "$(BUILD_DIR_BASE)" && cmake --build . 2>"$(CMAKE_ERROR_LOG_FILE)"
+	cd "$(BUILD_DIR_BASE)" && cmake --build . -- -k 2>"$(CMAKE_ERROR_LOG_FILE)"
 
 test:
 	echo "Running tests"
