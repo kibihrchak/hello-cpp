@@ -10,6 +10,7 @@ add_executable(stashTest
     sfinae.cpp
     perfectForwarding.cpp
     synchronization.cpp
+    lambda.cpp
     )
 
 
